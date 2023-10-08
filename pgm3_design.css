@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image:url("cal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator {
+    width: 300px;
+    background-color:transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(208, 13, 13, 0.2);
+    text-align: center;
+}
+
+.display input {
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    border-style: dashed;
+    border-color: rgb(193, 125, 125);
+    text-align: right;
+    padding: 5px;
+
+}
+
+.buttons button {
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:transparent;
+}
+
+.buttons button:hover {
+    background-color: rgb(223, 152, 170);
+}
